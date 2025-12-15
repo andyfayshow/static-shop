@@ -4,11 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      ul,
+      li {
+        list-style: none;
+      }
+      .container {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      }
+      .header {
+        width: 1280px;
+        height: 100%;
+        font-size: 16px;
+        color: black;
+        background-color: #fff;
+      }
+      .header ul {
+        display: flex;
+        align-items: center;
+      }
+      .header ul > li {
+        margin-right: 10px;
+        line-height: 52px;
+      }
+      .tab {
+        width: 100px;
+        border: 1px solid #ccc;
+      }
+    </style>
   </head>
   <body>
-    <h1>昊天</h1>
-    <img src="https://img0.baidu.com/it/u=2632661538,4122367147&fm=253&app=120&f=JPEG?w=500&h=500"/>
+    <div class="container">
+      <div class="header">
+        <ul>
+          <li>王远</li>
+          <li>昊天</li>
+          <li>IAK03</li>
+          <li>IBK39</li>
+        </ul>
+        <div class="tab">
+          <div>111</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-
-
